@@ -129,3 +129,50 @@ git diff HEAD~3 HEAD
 
 - `Amazon.txt`: The Amazon file with changes.
 - `Git-log.png`: Screenshot of the Git log output.
+
+
+
+## Assignment 2: GitHub Basics & Collaboration
+
+### 1. Cloning the Repository:
+I cloned the existing repository to my local system:
+
+```bash
+git clone https://github.com/CHParvathi69/Assignment-1-2.git
+cd assignment-1-2
+```
+
+### 2. Creating a New Branch:
+Created a new branch `feature` for adding the update to the `README.md` file.
+
+```bash
+git checkout -b feature
+```
+
+### 3. Editing the `README.md` File:
+I updated the `README.md` to include both **Assignment 1** and **Assignment 2** as described here.
+
+### 4. Staging, Committing, and Pushing the Changes:
+Staged and committed the changes to the `README.md` file:
+
+```bash
+git add README.md
+git commit -m "Updated README to include both Assignment 1 & 2 details"
+git push -u origin feature
+```
+
+### 5. Creating a Pull Request on GitHub:
+Created a pull request on GitHub to merge the changes from the `feature` branch to the `main` branch.
+
+### 6. Merging the Pull Request:
+After reviewing the pull request, I merged it to the `main` branch.
+
+---
+
+### Deliverables:
+
+- **GitHub Repository Link**: [GitHub Repo - Assignment 1 & 2](https://github.com/CHParvathi69/Assignment-1-2.git)
+
+![Pull Request Screeshot](https://github.com/CHParvathi69/Assignment-1-2/blob/main/pullreq.PNG)
+
+![Merge Screenshot](https://github.com/CHParvathi69/Assignment-1-2/blob/main/merge.PNG)
